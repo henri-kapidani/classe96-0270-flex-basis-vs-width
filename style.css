@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	height: 200px;
+	background-color: aqua;
+}
+
+.box {
+	width: 200px;
+	flex: 1 0 0;
+	background-color: gold;
+	border: 2px solid brown;
+}
+
+/* .box1 {
+	flex: 0 0 20%;
+}
+
+.box2 {
+	flex: 0 0 60%;
+} */
